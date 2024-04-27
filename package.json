@@ -1,0 +1,26 @@
+{
+  "name": "social-publisher-publicador",
+  "version": "1.0.0",
+  "description": "sam local invoke \"Test-Lambda\" --event event.json --env-vars env.json --log-file logfile.txt",
+  "main": "index.js",
+  "scripts": {
+      "build": "webpack-cli",
+      "watch": "webpack-cli -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.137",
+    "aws-sam-webpack-plugin": "^0.14.0",
+    "rimraf": "^5.0.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1608.0",
+    "source-map-support": "^0.5.21"
+  }
+}
